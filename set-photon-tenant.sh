@@ -1,7 +1,8 @@
 #!/bin/bash
 
-photon -t http://10.65.164.14:9000 system deploy photon-v0.1.yml
-photon target set http://10.65.172.11:8080
+#photon -t http://10.65.162.14:9000 system deploy ../pcf-photon-manifests/photon/photon-env-01.yml
+#sleep 180
+photon target set http://10.65.170.12:8080
 photon tenant create cf-test
 photon tenant set cf-test
 photon resource-ticket create --name dev-ticket --limits "vm.memory 3600 GB, vm 10000 COUNT" -t cf-test
