@@ -1,5 +1,5 @@
 #!/bin/bash
-
+rvm use 1.9.3
 photon -t http://${IP0}:${PHOTON_PORT} system deploy ../pcf-photon-manifests/photon/photon-env-01.yml
 sleep 600
 photon target set http://${PHOTON_CTRL_IP}:8080
