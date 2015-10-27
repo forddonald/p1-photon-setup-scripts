@@ -1,3 +1,4 @@
+#deploy-photon-installer.sh
 export VM_NETWORK=Mgmt
 export DATASTORE=FS_PEZ_NFS_HAAS04
 export IP0=10.65.162.14
@@ -11,3 +12,7 @@ export PHOTON_CTRL_INSTALLER_OVA_PATH=/home/photon/photon/photon-ctrl-installer-
 export ESX_ROOT_USER=root
 export ESX_ROOT_PASSWORD=d3v0ps!
 export ESX_SERVER_IP=10.65.162.104
+
+#reset-vibs.sh
+export PHOTON_INSTALLER_USER=root
+export PHOTON_INSTALLER_IP=10.65.162.14
