@@ -5,7 +5,7 @@ ovftool --acceptAllEulas --noSSLVerify --skipManifestCheck \
 --datastore=${DATASTORE} \
 --name=photon-installer \
 --prop:ip0=${IP0} \
---prop:netmask0=${NETMASK0) \
+--prop:netmask0=${NETMASK0} \
 --prop:gateway=${GATEWAY} \
 --prop:DNS=${DNS} \
 --prop:ntp_servers=${NTP_SERVERS} \
